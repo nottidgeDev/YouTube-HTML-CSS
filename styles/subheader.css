@@ -1,0 +1,30 @@
+.sub-header {
+  background-color: white;
+  height: 60px;
+   display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4px;
+  margin-bottom: 20px;
+  min-width: 1200px;
+  position: fixed;
+  top: 50px;
+  z-index: 101;
+}
+.btn {
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn:hover {
+  background-color: rgb(223, 223, 223);
+  transition: 0.15s;
+}
+.btn:focus {
+  background-color: black;
+  color: white;
+}
